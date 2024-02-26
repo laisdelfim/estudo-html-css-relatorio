@@ -1,0 +1,242 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center{
+  background-color: #ffffff;
+  border-radius: 10%;
+  -webkit-box-shadow: 0 12px 30px 0 rgba(0,0,0,.23);
+  box-shadow: 0 12px 30px 0 rgba(0,0,0,.23);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 742px;
+  height: 514px;
+}
+
+.center .resultados{
+  background: rgb(102,66,254);
+  background: linear-gradient(176deg, rgba(102,66,254,1) 0%, rgba(49,44,233,1) 100%);
+  width: 373px;
+  height: 100%;
+  border-radius: 10%;
+}
+
+.center .resultados .título h1{
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-top: 46px;
+}
+
+ .resultados .porcentagem{
+  background: rgb(75,35,203);
+  background: linear-gradient(176deg, rgba(75,35,203,1) 0%, rgba(71,52,240,1) 100%);
+  width: 207px;
+  height: 207px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 33px;
+}
+.resultados .porcentagem p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: regular;
+  color: #ffffff;
+}
+
+
+.resultados .porcentagem .valor {
+  font-size: 64px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.resultados h1{
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+
+.resultados .texto{
+  font-size: 15px;
+  font-weight: regular;
+  width: 249px;
+  margin-left: 60px;
+  color: #ffffff;
+}
+
+.numeros{
+  width: 290px;
+  height: 416px;
+  margin: 0 auto;
+}
+
+.numeros .opções h1{
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #21314A;
+}
+
+.numeros .caracteres .flex .itens{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  gap: 10px;
+}
+
+.numeros .caracteres .flex .texto{
+  font-size: 16px;
+  font-weight: bold;
+  color: #D15A57;
+}
+
+.numeros .caracteres .flex .valor{
+  font-size: 16px;
+  padding-right: 20px;
+  color: #21314A;
+}
+
+.numeros .caracteres .flex{
+  width: 289px;
+  height: 54px;
+  background-color: #FCE0DD;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+  border-radius: 10px;
+}
+
+.numeros{
+  width: 290px;
+  height: 416px;
+  margin: 0 auto;
+}
+
+
+
+.numeros .cabeça .caracteres .flex .texto{
+  font-size: 16px;
+  font-weight: bold;
+  color: #E1B568;
+}
+
+.numeros .cabeça  .caracteres .flex .valor{
+  font-size: 16px;
+  padding: 20px;
+  color: #21314A;
+}
+
+.numeros .cabeça .caracteres .flex{
+  width: 289px;
+  height: 54px;
+  background-color: #FFF3D8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+
+
+
+.numeros .textos .caracteres .flex .itens{
+  display: flex;
+  justify-content: space-around;
+}
+
+.numeros .textos .caracteres .flex .texto{
+  font-size: 16px;
+  font-weight: bold;
+  color: 27A085;
+}
+
+.numeros .textos  .caracteres .flex .valor{
+  font-size: 16px;
+  padding: 20px;
+  color: #21314A;
+}
+
+.numeros .textos .caracteres .flex{
+  width: 289px;
+  height: 54px;
+  background-color: #7DD4FF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+
+
+
+.numeros .olho .caracteres .flex .itens{
+  display: flex;
+  justify-content: space-around;
+}
+
+.numeros .olho .caracteres .flex .texto{
+  font-size: 16px;
+  font-weight: bold;
+  color: #1C298D;
+}
+
+.numeros .olho  .caracteres .flex .valor{
+  font-size: 16px;
+  padding: 20px;
+  color: #21314A;
+}
+
+.numeros .olho .caracteres .flex{
+  width: 289px;
+  height: 54px;
+  background-color: #D8D8FF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+
+.numeros .botão {
+  margin-top: 43px;
+  width: 289px;
+  height: 57px;
+  background-color: #21314A;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numeros .botão .entrar p{
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
